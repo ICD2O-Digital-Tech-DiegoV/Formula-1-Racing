@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My First Web Page, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Ms Raffin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles sheet for MDL -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Formula1_fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Formula1_fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Formula1_fav/favicon-16x16.png">
+    <link rel="manifest" href="./Formula1_fav/site.webmanifest">
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-cyan.min.css" />
+    <title>My First Webpage, with JavaScript</title>
+  </head>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script>
+      
+    </script>
+    <h1>Formula 1 Racing</h1>
+    <!-- Default Slider -->
+    <input class="mdl-slider mdl-js-slider" type="range"
+      min="0" max="100" value="0" tabindex="0">
+     Pleas use Me!
+    <!-- MDL Progress Bar with Buffering -->
+    <div id="p3" class="mdl-progress mdl-js-progress"></div>
+    <script>
+      document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+        this.MaterialProgress.setProgress(33);
+        this.MaterialProgress.setBuffer(87);
+      });
+    </script>
+    </button>
+    <br></br>
+    <p>  Formula 1 is a motorsport that is very popular all over the world. It is very competative, and ten teams battle thourout the whole season for the glory of being world Champion. Last year Red Bull was world champion with Max Verstapen.
+    <p>
+      Here is the <a href = "./teams.html">special link</a> to my Second page about F1</a>.
+    </p>
+    <p>
+      Here is a <a href = "./f1_race_tracks.html"> awsome link</a> to my Third page about F1</a>.
+    </p>
+  </body>
+</html>
